@@ -11,6 +11,7 @@ layout: default
     </h1>
 </section>
 <section class="infoSection">
+<!-- just page space -->
 </section>
 <section class="infoSection">
     <article class="boxOfText">
@@ -21,6 +22,8 @@ layout: default
 <section class="infoSection">
     {% include eimmigrateLogo.html %}
     {% include ossjLogo.html %}
+    {% include ylfmLogo.html %}
+    {% include titdLogo.html %}
     {% include artofjoeLogo.html %}
     {% include poguecalvertLogo.html %}
 </section>
