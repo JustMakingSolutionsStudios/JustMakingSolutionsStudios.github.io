@@ -5,3 +5,11 @@
 layout: default
 ---
 <div>content in here page content for home page </div>
+<section class="infoSection">more stuff</section>
+<section class="infoSection">more stuff</section>
+<section class="infoSection">more stuff</section>
+<section class="infoSection">more stuff</section>
+<section class="infoSection">more stuff</section>
+<section class="infoSection">more stuff</section>
+<section class="infoSection">more stuff</section>
+
