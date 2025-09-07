@@ -4,39 +4,34 @@
 <head>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-  <title>JMStudios Just Making Solutions Studios</title>
+  <title>{%- if page.title -%} {{ page.title }} @ {% endif -%} {{ site.title }}</title>
   <!-- meta -->
-  <meta charset="utf-8" /><meta name="author" content="JMStudios">
+  <meta charset="utf-8" />
+  {%- if page.description -%}
+    <meta name="description" content="{{ page.description }}">
+  {%- endif -%}
+  <meta name="author" content="JMStudios">
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  
+  {{ page.meta }}
   <!-- mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script src="https://kit.fontawesome.com/a5c8bf6536.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap"
     rel="stylesheet">
   <!--   -->
-  <!--  -->
+  <!-- {{ page.scripts }} -->
 </head>
 
 <body>
   <div class="container">
     <header>
-      <header>
-    <a href="index.html">
-  <img src="./assets/img/JMSWHITE.png" alt="JMStudios">
-</a>
-<a href="./services.html">Services</a>
-<a href="./portfolio.html">Portfolio</a>
-<a href="./about.html">About</a>
-<a href="./contact.html">Contact</a>
-</header>
+      {% include header.html %}
     </header>
     <main>
-      <div>content in here page content for home page </div>
-
+      {{ content }}
     </main>
     <footer>
-      <footer>footer</footer>
+      {% include footer.html %}
     </footer>
   </div>
 
