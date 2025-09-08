@@ -1,0 +1,12 @@
+{% assign my_string = "apple,banana,orange" %}
+{% assign items = {{include.items}} | split: "," %}
+
+<div>
+    <h3>{{include.title}}</h3>
+    <h4>{{include.subtitle}}</h4>
+    <ul>
+    {% for item in items %}
+        <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+</div>
