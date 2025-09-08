@@ -4,14 +4,16 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    flex: 1;
     justify-content: space-between;
     position: sticky;
     top: 0;
     background-color: rgba(23, 29, 58, 1);
 
-    a {
-        color: white;
-        text-decoration: none;
+    .navTabItemsContainer {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
+
 }
