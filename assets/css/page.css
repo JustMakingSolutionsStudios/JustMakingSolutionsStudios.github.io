@@ -20,12 +20,6 @@
     align-items: center;
     justify-content: space-around;
 
-    .siteTitle {
-      text-align: center;
-      color: var(--primary-text-color);
-      font-size: 4rem;
-    }
-
     .boxOfText {
       border-radius: 1rem;
       background-color: var(--primary-text-color);
@@ -35,6 +29,17 @@
     }
 
   }
+}
+
+.siteTitle {
+  text-align: center;
+  color: var(--primary-text-color);
+  font-size: 4rem;
+}
+
+.siteSubTitleTitle {
+  color: var(--primary-text-color);
+  font-size: 2rem;
 }
 
 .comingSoon {
