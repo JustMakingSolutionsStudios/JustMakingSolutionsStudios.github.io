@@ -6,20 +6,19 @@ layout: default
 ---
 <section class="infoSection">
     <h1 class="siteTitle">
-        JMStudios<br />
-        Just Making Solutions, Studios
+        {{ site.dbaName }}<br />
+        Just Making Solutions Studios
     </h1>
 </section>
 <section class="infoSection">
     <article class="boxOfText">
-        <p>JMStudios is a modern Software agency crafting custom solutions with clarity, trasnparency, and care, we're not just tinkering with plugins – we're sculpting your vision into reality. Embracing transparency, we listen intently to your needs, ensuring every block of code reflects your unique requirements. Trust us to build beyond expectations, where innovation meets attentive craftsmanship</p>
-        <p>If ready for the next step send us an email directly at contact@jmstudios.net</p>
+        <p>{{ site.dbaName }} is a modern Software agency crafting custom solutions with clarity, trasnparency, and care, we're not just tinkering with plugins – we're sculpting your vision into reality. Embracing transparency, we listen intently to your needs, ensuring every block of code reflects your unique requirements.</p>
+        <p>If ready for the next step send us an email directly at <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     </article>
 </section>
 <section class="infoSection">
     {% include eimmigrateLogo.html %}
     {% include ossjLogo.html %}
-    {% include ylfmLogo.html %}
     {% include titdLogo.html %}
     {% include artofjoeLogo.html %}
     {% include poguecalvertLogo.html %}

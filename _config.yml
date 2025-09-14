@@ -19,11 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: JMStudios Just Making Solutions Studios
-email: contactl@jmstudios.net
+fullName: Just Making Solutions Studios, LLC
+dbaName: JMStudios
+email: contact@jmstudios.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Just Making Solutions for your technical needs. We are highly skilled and effect software engineers with a combined 30 years of experience.
+  Just Making Solutions for your technical needs. We are highly skilled and effect software engineers with decades of experience.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jmstudios.net" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
