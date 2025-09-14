@@ -19,7 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: JMStudios Just Making Solutions Studios
-fullName: Just Making Solutions Studios, LLC
+fullName: Just Making Solutions Studios
+fullNameWithLLC: Just Making Solutions Studios, LLC
 dbaName: JMStudios
 email: contact@jmstudios.net
 description: >- # this means to ignore newlines until "baseurl:"
