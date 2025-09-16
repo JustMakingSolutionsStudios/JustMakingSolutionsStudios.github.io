@@ -1,0 +1,11 @@
+.footer {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    color: var(--primary-text-color);
+}

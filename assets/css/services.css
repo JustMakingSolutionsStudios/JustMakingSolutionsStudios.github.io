@@ -1,0 +1,15 @@
+.servicesContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .examplesContainer {
+        display: flex;
+        flex-direction: row;
+    }
+}
+.listInfoSpacingContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
